@@ -2,6 +2,8 @@ from pathlib import Path
 
 from decouple import config
 
+# Load the external API URL from the .env file
+EXTERNAL_API_URL = config('EXTERNAL_API_URL')
 """
 Django settings for facerecognition project.
 
